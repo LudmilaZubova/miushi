@@ -1,0 +1,74 @@
+// Для импорта в диспетчер подключений: @import '../blocks/catalog-card/catalog-card.scss';
+
+
+.catalog-card {
+  box-shadow: 0 0 10px 10px #eeeeee;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-radius: 7px 7px 0 0;
+  background-color: #ffffff;
+  max-width: 330px;
+  margin: 0 auto;
+
+  img{
+    max-width: 344px;
+    max-height: 229px;
+    display: block;
+    margin: 0 auto;
+  }
+  h3{
+    font-family: $OpenSans;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  &__description{
+    font-family: $OpenSans;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+  &--middle{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    }
+  }
+  &__price{
+    display: inline-block;
+    font-family: $FirsSans;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 20px;
+  }
+  &__btn{
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    font-size: 10px;
+    color: #eee;
+
+    &:hover{
+      transform: scale(1.2);
+      border: 2px solid #32505a;
+      color: #32505a;
+    }
+  }
+  &__count{
+    display: inline;
+  }
+  
+}
+@media screen and (max-width: 1024px){
+    .catalog-card{
+      img{
+        max-width: 211px;
+      }
+    }
+}

@@ -1,0 +1,57 @@
+// Для импорта в диспетчер подключений: @import '../blocks/main-header-bottom/main-header-bottom.scss';
+
+
+.main-header-bottom {
+
+  &__item{
+    font-family: $OpenSans;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    &--link{
+      text-decoration: none;
+      color: #000000;
+      &:hover{
+        color: #ffffff;
+        background-color: $green;
+        transition: 1s;
+        transform: scale(1.1);
+      }
+    }
+    &--office{
+      position: relative;
+      padding-left: 58px;
+      &::before{
+        content: '';
+        top: 5px;
+        left: 20px;
+        position: absolute;
+        width: 34px;
+        height: 28px;
+        background-image: url("../../img/office.png");
+        background-repeat: no-repeat;
+      }
+    }
+    &--bag{
+      position: relative;
+      padding-left: 58px;
+      &::before {
+        content: '';
+        top: 7px;
+        left: 20px;
+        position: absolute;
+        width: 34px;
+        height: 28px;
+        background-image: url("../../img/bag.png");
+        background-repeat: no-repeat;
+      }
+    }
+
+  }
+}
+.dropdown-item{
+  &:hover{
+    text-decoration: underline;
+  }
+}

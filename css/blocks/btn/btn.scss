@@ -1,0 +1,48 @@
+// Для импорта в диспетчер подключений: @import '../blocks/btn/btn.scss';
+
+
+.btn {
+  background-color: $orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: $OpenSans;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  &:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+  &:active{
+    background-color: #f83e13;
+  }
+  &:visited{
+  background-color: #f89513;
+  }
+  &__promo-slider{
+
+  }
+  &__bag{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding-right: 65px;
+    &::after{
+      content: '';
+      position:absolute;
+      top: 10px;
+      right: 16px;
+      width: 22px;
+      height: 20px;
+      background-image: url("../../img/cart.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .btn{
+    &__promo-slider{
+
+    }
+  }
+}

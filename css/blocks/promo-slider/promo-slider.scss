@@ -1,0 +1,70 @@
+// Для импорта в диспетчер подключений: @import '../blocks/promo-slider/promo-slider.scss';
+
+
+.promo-slider {
+  position: relative;
+  &__wrapper{
+    position: absolute;
+    top: 91px;
+    left:230px;
+  }
+  &__title{
+    margin-bottom: 40px;
+    font-family: $LemonSans;
+    font-size: 110px;
+    line-height: 100px;
+    color: $green;
+  }
+  &__time{
+    //position: absolute;
+    //top: 350px;
+    //left: 200px;
+    font-family: $OpenSans;
+    font-size: 26px;
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  &__discount{
+    position: absolute;
+    top: 5px;
+    left: 118%;
+    background-color: #d71f24;
+    border-radius: 50%;
+    color: #ffffff;
+    max-width: 200px;
+    max-height: 200px;
+
+    &--inner{
+      font-family: $OpenSans;
+      font-size: 21px;
+      font-weight: bold;
+      text-align: center;
+      padding: 18px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .promo-slider{
+      font-size: 100px;
+      &__discount{
+        left: 107%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .promo-slider{
+    &__title {
+      top: 35px;
+      font-size: 68px;
+      line-height: 78px;
+    }
+    &__time{
+      font-size: 24px;
+    }
+    &__wrapper{
+      left: 165px;
+    }
+  }
+
+}

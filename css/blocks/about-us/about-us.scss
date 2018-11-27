@@ -1,0 +1,20 @@
+// Для импорта в диспетчер подключений: @import '../blocks/about-us/about-us.scss';
+
+
+.about-us {
+  font-family: $OpenSans;
+  &__title{
+    color: $blue;
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+  &__text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #4c4c4c;
+  }
+  &__img{
+    display: block;
+    margin: 0 auto;
+  }
+}

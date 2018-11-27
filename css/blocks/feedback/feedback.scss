@@ -1,0 +1,58 @@
+// Для импорта в диспетчер подключений: @import '../blocks/feedback/feedback.scss';
+
+
+.feedback {
+  height: 356px;
+  background-image:linear-gradient(to right, transparent 1%, #161326 46% ),
+  url("../../img/bg-feedback.jpg");
+  background-repeat: no-repeat;
+
+  &__text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    &--small{
+      font-size: 12px;
+      color: #ffffff;
+    }
+  }
+  &__width{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-left: 42%;
+    padding-top: 20px;
+    margin-bottom: 120px;
+  }
+  &__form{
+    margin-bottom: 30px;
+    input{
+      border:none;
+      border-bottom: 2px solid #ffffff;
+      padding: 10px;
+      background-color: transparent;
+      color: #ffffff;
+      font-family: $OpenSans;
+      font-size: 14px;
+      line-height: 24px;
+      margin-right: 25px;
+      &:focus{
+        outline: 3px solid $orange;
+      }
+    }
+  }
+  &__title{
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width: 982px){
+  .feedback{
+    height: 485px;
+    &__form{
+      button{
+        margin-top: 15px;
+      }
+    }
+  }
+}

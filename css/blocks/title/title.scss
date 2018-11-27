@@ -1,0 +1,57 @@
+// Для импорта в диспетчер подключений: @import '../blocks/title/title.scss';
+
+
+.title {
+  font-family: $LemonSans;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  color: $blue;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+
+  //&::before{
+  //  content: '';
+  //  width: 115px;
+  //  height: 43px;
+  //  position: absolute;
+  //  top: 5px;
+  //
+  //  background-image: url("../../img/title-left.png");
+  //  background-repeat: no-repeat;
+  //  background-position: left;
+  //}
+  //&::after{
+  //  content: '';
+  //  width: 115px;
+  //  height: 43px;
+  //  position: absolute;
+  //  top: 5px;
+  //  display: inline-block;
+  //  background-image: url("../../img/title-right.png");
+  //  background-repeat: no-repeat;
+  //  background-position: right;
+  //}
+  &__left,
+  &__right{
+    margin-top: 10px;
+    width: 115px;
+    height: 43px;
+    margin-top: 40px;
+  }
+
+  &__left{
+    float: left;
+    margin-right: 20px;
+
+  }
+  &__right{
+    float: right;
+    margin-left: 20px;
+
+  }
+  &--no-psevdo{
+    color: #ffffff;
+  }
+}

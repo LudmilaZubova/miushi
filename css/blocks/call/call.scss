@@ -1,0 +1,26 @@
+// Для импорта в диспетчер подключений: @import '../blocks/call/call.scss';
+
+
+.call {
+  &__buttom{
+    font-family: $OpenSans;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #1fba0a;
+    background-color: #ffffff;
+    border:1px solid #1fba0a;
+    padding: 10px 15px;
+    border-radius: 10px;
+    &:hover{
+      background-color: $green;
+      color: #ffffff;
+    }
+  }
+}
+
+.call__modal{
+  display: none;
+}
+.open{
+  display: block;
+}

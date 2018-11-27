@@ -1,0 +1,14 @@
+// Для импорта в диспетчер подключений: @import '../blocks/advantages-card/advantages-card.scss';
+
+
+.advantages-card {
+  font-family: $OpenSans;
+  font-size: 16px;
+  color: #4c4c4c;
+  text-align: center;
+  img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+// Для импорта в диспетчер подключений: @import '../blocks/comments/comments.scss';
+
+.comment{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.comments {
+  border: 1px solid #999999;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-bottom: 20px;
+  &__autor{
+    &--name{
+      font-family: $OpenSans;
+      font-size: 15px;
+      font-weight: bold;
+      color: $vkcolor;
+      margin-bottom: 5px;
+    }
+  }
+  &__date{
+    font-family: $OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    color: #999999;
+  }
+  &__text{
+    font-family: $OpenSans;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+}

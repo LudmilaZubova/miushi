@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Lemon Tuesday';
+  src: local('Lemon Tuesday'), local('LemonTuesday'), url('../../font/Lemontuesday.woff2') format('woff2'), url('../../font/Lemontuesday.woff') format('woff'), url('../../font/Lemontuesday.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&subset=cyrillic');
+
+@import "mixins";
+@import "variables";
+@import '../blocks/main-header/main-header.scss';
+@import '../blocks/main-header-top/main-header-top.scss';
+@import '../blocks/call/call.scss';
+@import '../blocks/main-header-bottom/main-header-bottom.scss';
+@import '../blocks/promo-slider/promo-slider.scss';
+@import '../blocks/btn/btn.scss';
+@import '../blocks/title/title.scss';
+@import '../blocks/catalog/catalog.scss';
+@import '../blocks/catalog-card/catalog-card.scss';
+@import '../blocks/new/new.scss';
+@import '../blocks/advantages/advantages.scss';
+@import '../blocks/advantages-card/advantages-card.scss';
+@import '../blocks/comments/comments.scss';
+@import '../blocks/sotial-icon/sotial-icon.scss';
+@import '../blocks/feedback/feedback.scss';
+@import '../blocks/about-us/about-us.scss';
+@import '../blocks/main-footer/main-footer.scss';
+@import '../blocks/footer-copyright/footer-copyright.scss';
+@import '../blocks/sotial/sotial.scss';
+
