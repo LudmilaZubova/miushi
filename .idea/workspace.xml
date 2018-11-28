@@ -47,7 +47,7 @@
     <session id="1494543355">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.38" value="1" />
@@ -94,6 +94,9 @@
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="miushi" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -204,8 +207,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
-    <option name="y" value="-11" />
+    <option name="x" value="-25" />
+    <option name="y" value="-12" />
     <option name="width" value="1016" />
     <option name="height" value="1220" />
   </component>
@@ -222,46 +225,6 @@
             <path>
               <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
               <item name="miushi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-grid.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-reboot.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.bundle.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="miushi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miushi" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -318,19 +281,19 @@
       <workItem from="1542981652722" duration="10912000" />
       <workItem from="1543218106173" duration="4895000" />
       <workItem from="1543223413219" duration="19857000" />
-      <workItem from="1543307020886" duration="16601000" />
+      <workItem from="1543307020886" duration="18213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52636000" />
+    <option name="totallyTimeSpent" value="54248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13519314" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924585" visible="true" weight="0.13519314" />
+      <window_info id="Structure" order="1" sideWeight="0.5007542" side_tool="true" weight="0.13519314" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007542" side_tool="true" visible="true" weight="0.13519314" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925683" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32760364" />
@@ -341,8 +304,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32962587" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" visible="true" weight="0.32962587" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" weight="0.32962587" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32925683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
